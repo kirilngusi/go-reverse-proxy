@@ -1,1 +1,9 @@
 bindPort = 7000
+
+vhostHTTPPort = 8081
+vhostHTTPSPort = 8443
+
+webServer.addr = "127.0.0.1"
+webServer.port = 7500
+webServer.user = "admin"
+webServer.password = "admin"

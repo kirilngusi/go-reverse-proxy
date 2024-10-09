@@ -2,8 +2,49 @@ serverAddr = "127.0.0.1"
 serverPort = 7000
 
 [[proxies]]
+name = "web"
+type = "http"
+localIp = "127.0.0.1"
+localPort = 8080
+customDomains = ["localhost"]
+hostHeaderRewrite = "localhost"
+
+
+[[proxies]]
 name = "test-tcp"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 22
+remotePort = 6001
+
+
+#[web]
+#type = "http"
+#local_ip = "127.0.0.1"
+#local_port = 8080
+#custom_domains = "google.com"
+
+[webServer]
+addr = "127.0.0.1"
+port = 7400
+user = "admin"
+password = "admin"
+
+[[proxies]]
+name = "test_static_file"
+type = "tcp"
 remotePort = 6000
+
+[proxies.plugin]
+type = "static_file"
+localPath = "/tmp/files"
+stripPrefix = "static"
+httpUser = "abc"
+httpPassword = "abc"
+
+[[proxies]]
+name = "dns"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 53
+remotePort = 6002

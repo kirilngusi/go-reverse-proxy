@@ -1,13 +1,13 @@
 .PHONY: dist build preview lint
 
 build:
-	@npm run build
+	@yarn run build
 
 dev:
-	@npm run dev
+	@yarn run dev
 
 preview:
-	@npm run preview
+	@yarn run preview
 
 lint:
-	@npm run lint
+	@yarn run lint
