@@ -1,30 +1,5 @@
 # frp
-
-[![Build Status](https://circleci.com/gh/fatedier/frp.svg?style=shield)](https://circleci.com/gh/fatedier/frp)
-[![GitHub release](https://img.shields.io/github/tag/fatedier/frp.svg?label=release)](https://github.com/fatedier/frp/releases)
-[![Go Report Card](https://goreportcard.com/badge/github.com/fatedier/frp)](https://goreportcard.com/report/github.com/fatedier/frp)
-[![GitHub Releases Stats](https://img.shields.io/github/downloads/fatedier/frp/total.svg?logo=github)](https://somsubhra.github.io/github-release-stats/?username=fatedier&repository=frp)
-
-[README](README.md) | [中文文档](README_zh.md)
-
-<h3 align="center">Gold Sponsors</h3>
-<!--gold sponsors start-->
-<p align="center">
-  <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=frp&utm_source=github" target="_blank">
-    <img width="420px" src="https://raw.githubusercontent.com/fatedier/frp/dev/doc/pic/sponsor_workos.png">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/daytonaio/daytona" target="_blank">
-    <img width="420px" src="https://raw.githubusercontent.com/fatedier/frp/dev/doc/pic/sponsor_daytona.png">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/beclab/terminus" target="_blank">
-    <img width="420px" src="https://raw.githubusercontent.com/fatedier/frp/dev/doc/pic/sponsor_terminusos.jpeg">
-  </a>
-</p>
-<!--gold sponsors end-->
+[README](README.md)
 
 ## What is frp?
 
@@ -1250,33 +1225,3 @@ frpc tcp --proxy_name "test-tcp" --local_ip 127.0.0.1 --local_port 8080 --remote
 ```
 
 Please refer to this [document](/doc/ssh_tunnel_gateway.md) for more information.
-
-## Releated Projects
-
-* [gofrp/plugin](https://github.com/gofrp/plugin) - A repository for frp plugins that contains a variety of plugins implemented based on the frp extension mechanism, meeting the customization needs of different scenarios.
-* [gofrp/tiny-frpc](https://github.com/gofrp/tiny-frpc) - A lightweight version of the frp client (around 3.5MB at minimum) implemented using the ssh protocol, supporting some of the most commonly used features, suitable for devices with limited resources.
-
-## Contributing
-
-Interested in getting involved? We would like to help you!
-
-* Take a look at our [issues list](https://github.com/fatedier/frp/issues) and consider sending a Pull Request to **dev branch**.
-* If you want to add a new feature, please create an issue first to describe the new feature, as well as the implementation approach. Once a proposal is accepted, create an implementation of the new features and submit it as a pull request.
-* Sorry for my poor English. Improvements for this document are welcome, even some typo fixes.
-* If you have great ideas, send an email to fatedier@gmail.com.
-
-**Note: We prefer you to give your advise in [issues](https://github.com/fatedier/frp/issues), so others with a same question can search it quickly and we don't need to answer them repeatedly.**
-
-## Donation
-
-If frp helps you a lot, you can support us by:
-
-### GitHub Sponsors
-
-Support us by [Github Sponsors](https://github.com/sponsors/fatedier).
-
-You can have your company's logo placed on README file of this project.
-
-### PayPal
-
-Donate money by [PayPal](https://www.paypal.me/fatedier) to my account **fatedier@gmail.com**.
