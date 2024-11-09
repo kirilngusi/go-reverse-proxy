@@ -15,13 +15,13 @@ import (
 	quic "github.com/quic-go/quic-go"
 	"golang.org/x/time/rate"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/nathole"
-	"github.com/fatedier/frp/pkg/transport"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/msg"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/nathole"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/transport"
+	netpkg "github.com/kirilngusi/go-reverse-proxy/pkg/util/net"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/xlog"
 )
 
 var ErrNoTunnelSession = errors.New("no tunnel session")

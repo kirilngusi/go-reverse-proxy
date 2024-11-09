@@ -81,7 +81,7 @@ linters-settings:
     sections:
     - standard
     - default
-    - prefix(github.com/fatedier/frp/)
+    - prefix(github.com/kirilngusi/go-reverse-proxy/)
   gosec:
     severity: "low"
     confidence: "low"

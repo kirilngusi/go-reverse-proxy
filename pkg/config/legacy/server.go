@@ -5,7 +5,7 @@ import (
 
 	"gopkg.in/ini.v1"
 
-	legacyauth "github.com/fatedier/frp/pkg/auth/legacy"
+	legacyauth "github.com/kirilngusi/go-reverse-proxy/pkg/auth/legacy"
 )
 
 type HTTPPluginOptions struct {

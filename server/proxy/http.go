@@ -8,12 +8,12 @@ import (
 
 	libio "github.com/fatedier/golib/io"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/util/limit"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/vhost"
-	"github.com/fatedier/frp/server/metrics"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/limit"
+	netpkg "github.com/kirilngusi/go-reverse-proxy/pkg/util/net"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/vhost"
+	"github.com/kirilngusi/go-reverse-proxy/server/metrics"
 )
 
 func init() {

@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/fatedier/frp/pkg/config/types"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/config/v1/validation"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/config/types"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/config/v1/validation"
 )
 
 // WordSepNormalizeFunc changes all flags that contain "_" separators

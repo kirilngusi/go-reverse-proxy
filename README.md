@@ -97,13 +97,13 @@ We sincerely appreciate your support for frp.
 
 ## Example Usage
 
-To begin, download the latest program for your operating system and architecture from the [Release](https://github.com/fatedier/frp/releases) page.
+To begin, download the latest program for your operating system and architecture from the [Release](https://github.com/kirilngusi/go-reverse-proxy/releases) page.
 
 Next, place the `frps` binary and server configuration file on Server A, which has a public IP address.
 
 Finally, place the `frpc` binary and client configuration file on Server B, which is located on a LAN that cannot be directly accessed from the public internet.
 
-Some antiviruses improperly mark frpc as malware and delete it. This is due to frp being a networking tool capable of creating reverse proxies. Antiviruses sometimes flag reverse proxies due to their ability to bypass firewall port restrictions. If you are using antivirus, then you may need to whitelist/exclude frpc in your antivirus settings to avoid accidental quarantine/deletion. See [issue 3637](https://github.com/fatedier/frp/issues/3637) for more details.
+Some antiviruses improperly mark frpc as malware and delete it. This is due to frp being a networking tool capable of creating reverse proxies. Antiviruses sometimes flag reverse proxies due to their ability to bypass firewall port restrictions. If you are using antivirus, then you may need to whitelist/exclude frpc in your antivirus settings to avoid accidental quarantine/deletion. See [issue 3637](https://github.com/kirilngusi/go-reverse-proxy/issues/3637) for more details.
 
 ### Access your computer in a LAN network via SSH
 

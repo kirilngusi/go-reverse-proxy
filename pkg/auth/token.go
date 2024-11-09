@@ -5,9 +5,9 @@ import (
 	"slices"
 	"time"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/util/util"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/msg"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
 )
 
 type TokenAuthSetterVerifier struct {

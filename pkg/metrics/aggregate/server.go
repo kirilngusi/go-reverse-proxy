@@ -1,9 +1,9 @@
 package aggregate
 
 import (
-	"github.com/fatedier/frp/pkg/metrics/mem"
-	"github.com/fatedier/frp/pkg/metrics/prometheus"
-	"github.com/fatedier/frp/server/metrics"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/metrics/mem"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/metrics/prometheus"
+	"github.com/kirilngusi/go-reverse-proxy/server/metrics"
 )
 
 // EnableMem start to mark metrics to memory monitor system.

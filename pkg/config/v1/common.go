@@ -3,7 +3,7 @@ package v1
 import (
 	"sync"
 
-	"github.com/fatedier/frp/pkg/util/util"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
 )
 
 // TODO(fatedier): Due to the current implementation issue of the go json library, the UnmarshalJSON method

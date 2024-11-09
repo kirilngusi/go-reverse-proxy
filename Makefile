@@ -12,9 +12,7 @@ env:
 # compile assets into binary file
 file:
 	rm -rf ./assets/frps/static/*
-	rm -rf ./assets/frpc/static/*
 	cp -rf ./web/frps/dist/* ./assets/frps/static
-	cp -rf ./web/frpc/dist/* ./assets/frpc/static
 
 fmt:
 	go fmt ./...
@@ -32,5 +30,4 @@ frps:
 	env CGO_ENABLED=0 go build -trimpath -ldflags "$(LDFLAGS)" -tags frps -o bin/frps ./cmd/frps
 
 clean:
-	rm -f ./bin/frpc
 	rm -f ./bin/frps

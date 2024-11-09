@@ -15,10 +15,10 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/transport"
-	"github.com/fatedier/frp/pkg/util/log"
-	"github.com/fatedier/frp/pkg/util/util"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/msg"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/transport"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/log"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
 )
 
 // NatHoleTimeout seconds.

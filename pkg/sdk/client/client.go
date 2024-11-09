@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fatedier/frp/client"
-	httppkg "github.com/fatedier/frp/pkg/util/http"
+	"github.com/kirilngusi/go-reverse-proxy/client"
+	httppkg "github.com/kirilngusi/go-reverse-proxy/pkg/util/http"
 )
 
 type Client struct {

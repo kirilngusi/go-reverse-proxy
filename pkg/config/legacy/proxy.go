@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/ini.v1"
 
-	"github.com/fatedier/frp/pkg/config/types"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/config/types"
 )
 
 type ProxyType string

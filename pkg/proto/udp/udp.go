@@ -9,7 +9,7 @@ import (
 	"github.com/fatedier/golib/errors"
 	"github.com/fatedier/golib/pool"
 
-	"github.com/fatedier/frp/pkg/msg"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/msg"
 )
 
 func NewUDPPacket(buf []byte, laddr, raddr *net.UDPAddr) *msg.UDPPacket {

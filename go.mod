@@ -1,4 +1,4 @@
-module github.com/fatedier/frp
+module github.com/kirilngusi/go-reverse-proxy
 
 go 1.21.1
 

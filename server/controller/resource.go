@@ -1,13 +1,13 @@
 package controller
 
 import (
-	"github.com/fatedier/frp/pkg/nathole"
-	plugin "github.com/fatedier/frp/pkg/plugin/server"
-	"github.com/fatedier/frp/pkg/util/tcpmux"
-	"github.com/fatedier/frp/pkg/util/vhost"
-	"github.com/fatedier/frp/server/group"
-	"github.com/fatedier/frp/server/ports"
-	"github.com/fatedier/frp/server/visitor"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/nathole"
+	plugin "github.com/kirilngusi/go-reverse-proxy/pkg/plugin/server"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/tcpmux"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/vhost"
+	"github.com/kirilngusi/go-reverse-proxy/server/group"
+	"github.com/kirilngusi/go-reverse-proxy/server/ports"
+	"github.com/kirilngusi/go-reverse-proxy/server/visitor"
 )
 
 // All resource managers and controllers

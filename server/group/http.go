@@ -6,7 +6,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/fatedier/frp/pkg/util/vhost"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/vhost"
 )
 
 type HTTPGroupController struct {

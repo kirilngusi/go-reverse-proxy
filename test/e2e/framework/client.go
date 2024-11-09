@@ -1,7 +1,7 @@
 package framework
 
 import (
-	clientsdk "github.com/fatedier/frp/pkg/sdk/client"
+	clientsdk "github.com/kirilngusi/go-reverse-proxy/pkg/sdk/client"
 )
 
 func (f *Framework) APIClientForFrpc(port int) *clientsdk.Client {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/fatedier/frp/pkg/util/util"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
 )
 
 type ClientPluginOptions interface {

@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/fatedier/frp/pkg/util/util"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
 )
 
 type NumberPair struct {

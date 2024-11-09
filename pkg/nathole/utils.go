@@ -9,7 +9,7 @@ import (
 	"github.com/fatedier/golib/crypto"
 	"github.com/pion/stun/v2"
 
-	"github.com/fatedier/frp/pkg/msg"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/msg"
 )
 
 func EncodeMessage(m msg.Message, key []byte) ([]byte, error) {

@@ -8,10 +8,10 @@ import (
 
 	libio "github.com/fatedier/golib/io"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/msg"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/xlog"
 )
 
 type STCPVisitor struct {

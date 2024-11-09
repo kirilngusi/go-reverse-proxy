@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/fatedier/frp/pkg/util/log"
-	"github.com/fatedier/frp/pkg/util/version"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/log"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/version"
 )
 
 var NotFoundPagePath = ""

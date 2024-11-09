@@ -7,7 +7,7 @@ import (
 
 	gerr "github.com/fatedier/golib/errors"
 
-	"github.com/fatedier/frp/server/ports"
+	"github.com/kirilngusi/go-reverse-proxy/server/ports"
 )
 
 // TCPGroupCtl manage all TCPGroups

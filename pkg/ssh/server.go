@@ -16,15 +16,15 @@ import (
 	flag "github.com/spf13/pflag"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/fatedier/frp/client/proxy"
-	"github.com/fatedier/frp/pkg/config"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/util/log"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/xlog"
-	"github.com/fatedier/frp/pkg/virtual"
+	"github.com/kirilngusi/go-reverse-proxy/client/proxy"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/config"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/msg"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/log"
+	netpkg "github.com/kirilngusi/go-reverse-proxy/pkg/util/net"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/xlog"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/virtual"
 )
 
 const (

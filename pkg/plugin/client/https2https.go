@@ -16,11 +16,11 @@ import (
 	"github.com/fatedier/golib/pool"
 	"github.com/samber/lo"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/transport"
-	httppkg "github.com/fatedier/frp/pkg/util/http"
-	"github.com/fatedier/frp/pkg/util/log"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/transport"
+	httppkg "github.com/kirilngusi/go-reverse-proxy/pkg/util/http"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/log"
+	netpkg "github.com/kirilngusi/go-reverse-proxy/pkg/util/net"
 )
 
 func init() {

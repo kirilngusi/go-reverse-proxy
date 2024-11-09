@@ -3,8 +3,8 @@ package validation
 import (
 	"errors"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	splugin "github.com/fatedier/frp/pkg/plugin/server"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	splugin "github.com/kirilngusi/go-reverse-proxy/pkg/plugin/server"
 )
 
 var (

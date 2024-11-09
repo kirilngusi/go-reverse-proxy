@@ -7,7 +7,7 @@ import (
 
 	"github.com/fatedier/golib/errors"
 
-	"github.com/fatedier/frp/pkg/msg"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/msg"
 )
 
 type MessageTransporter interface {

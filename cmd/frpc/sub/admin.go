@@ -10,9 +10,9 @@ import (
 	"github.com/rodaine/table"
 	"github.com/spf13/cobra"
 
-	"github.com/fatedier/frp/pkg/config"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	clientsdk "github.com/fatedier/frp/pkg/sdk/client"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/config"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	clientsdk "github.com/kirilngusi/go-reverse-proxy/pkg/sdk/client"
 )
 
 var adminAPITimeout = 30 * time.Second

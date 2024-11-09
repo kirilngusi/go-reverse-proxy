@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/fatedier/frp/pkg/metrics/aggregate"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/metrics/aggregate"
 )
 
 var (

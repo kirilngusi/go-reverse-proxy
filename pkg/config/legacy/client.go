@@ -9,8 +9,8 @@ import (
 
 	"gopkg.in/ini.v1"
 
-	legacyauth "github.com/fatedier/frp/pkg/auth/legacy"
-	"github.com/fatedier/frp/pkg/util/util"
+	legacyauth "github.com/kirilngusi/go-reverse-proxy/pkg/auth/legacy"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
 )
 
 // ClientCommonConf is the configuration parsed from ini.

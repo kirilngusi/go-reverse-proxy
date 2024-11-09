@@ -13,12 +13,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/fatedier/frp/client"
-	"github.com/fatedier/frp/pkg/config"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/config/v1/validation"
-	"github.com/fatedier/frp/pkg/util/log"
-	"github.com/fatedier/frp/pkg/util/version"
+	"github.com/kirilngusi/go-reverse-proxy/client"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/config"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/config/v1/validation"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/log"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/version"
 )
 
 var (

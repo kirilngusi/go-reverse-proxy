@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/fatedier/frp/pkg/msg"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/msg"
 )
 
 var AlwaysPassVerifier = &alwaysPass{}

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/util"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/xlog"
 )
 
 type Manager struct {

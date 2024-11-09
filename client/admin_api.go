@@ -12,12 +12,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/fatedier/frp/client/proxy"
-	"github.com/fatedier/frp/pkg/config"
-	"github.com/fatedier/frp/pkg/config/v1/validation"
-	httppkg "github.com/fatedier/frp/pkg/util/http"
-	"github.com/fatedier/frp/pkg/util/log"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
+	"github.com/kirilngusi/go-reverse-proxy/client/proxy"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/config"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/config/v1/validation"
+	httppkg "github.com/kirilngusi/go-reverse-proxy/pkg/util/http"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/log"
+	netpkg "github.com/kirilngusi/go-reverse-proxy/pkg/util/net"
 )
 
 type GeneralResponse struct {

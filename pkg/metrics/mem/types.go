@@ -3,7 +3,7 @@ package mem
 import (
 	"time"
 
-	"github.com/fatedier/frp/pkg/util/metric"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/metric"
 )
 
 const (

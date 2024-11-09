@@ -13,15 +13,15 @@ import (
 	libio "github.com/fatedier/golib/io"
 	"golang.org/x/time/rate"
 
-	"github.com/fatedier/frp/pkg/config/types"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	plugin "github.com/fatedier/frp/pkg/plugin/server"
-	"github.com/fatedier/frp/pkg/util/limit"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/xlog"
-	"github.com/fatedier/frp/server/controller"
-	"github.com/fatedier/frp/server/metrics"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/config/types"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/msg"
+	plugin "github.com/kirilngusi/go-reverse-proxy/pkg/plugin/server"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/limit"
+	netpkg "github.com/kirilngusi/go-reverse-proxy/pkg/util/net"
+	"github.com/kirilngusi/go-reverse-proxy/pkg/util/xlog"
+	"github.com/kirilngusi/go-reverse-proxy/server/controller"
+	"github.com/kirilngusi/go-reverse-proxy/server/metrics"
 )
 
 var proxyFactoryRegistry = map[reflect.Type]func(*BaseProxy) Proxy{}

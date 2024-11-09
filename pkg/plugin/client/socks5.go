@@ -10,8 +10,8 @@ import (
 
 	gosocks5 "github.com/armon/go-socks5"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
+	v1 "github.com/kirilngusi/go-reverse-proxy/pkg/config/v1"
+	netpkg "github.com/kirilngusi/go-reverse-proxy/pkg/util/net"
 )
 
 func init() {
