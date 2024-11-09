@@ -3,7 +3,7 @@
     <header class="grid-content header-color">
       <div class="header-content">
         <div class="brand">
-          <a href="#">frp</a>
+          <a href="#">KMA Reverse Proxy</a>
         </div>
         <div class="dark-switch">
           <el-switch
@@ -43,7 +43,6 @@
               <el-menu-item index="/proxies/stcp">STCP</el-menu-item>
               <el-menu-item index="/proxies/sudp">SUDP</el-menu-item>
             </el-sub-menu>
-            <el-menu-item index="">Help</el-menu-item>
           </el-menu>
         </el-col>
 
@@ -67,9 +66,6 @@ const darkmodeSwitch = ref(isDark)
 const toggleDark = useToggle(isDark)
 
 const handleSelect = (key: string) => {
-  if (key == '') {
-    window.open('https://github.com/kirilngusi/go-reverse-proxy')
-  }
 }
 </script>
 
