@@ -1,50 +1,49 @@
-serverAddr = "127.0.0.1"
+serverAddr = "3.27.235.74"
 serverPort = 7000
+
+auth.method = "token"
+auth.token = "hihi"
 
 [[proxies]]
 name = "web"
 type = "http"
 localIp = "127.0.0.1"
-localPort = 8080
-customDomains = ["localhost"]
-hostHeaderRewrite = "localhost"
-
+localPort = 8500
+customDomains = ["kirilngusi.site"]
 
 [[proxies]]
-name = "test-tcp"
+name = "ssh"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 22
-remotePort = 6001
-
-
-#[web]
-#type = "http"
-#local_ip = "127.0.0.1"
-#local_port = 8080
-#custom_domains = "google.com"
-
-[webServer]
-addr = "127.0.0.1"
-port = 7400
-user = "admin"
-password = "admin"
-
-[[proxies]]
-name = "test_static_file"
-type = "tcp"
 remotePort = 6000
 
-[proxies.plugin]
-type = "static_file"
-localPath = "/tmp/files"
-stripPrefix = "static"
-httpUser = "abc"
-httpPassword = "abc"
+[[proxies]]
+name = "tcp_encrypted_proxy"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 1234
+remotePort = 6002
+transport.useEncryption = true
 
 [[proxies]]
 name = "dns"
 type = "udp"
-localIP = "127.0.0.1"
+localIP = "8.8.8.8"
 localPort = 53
-remotePort = 6002
+remotePort = 6001
+
+[[proxies]]
+name = "test_https2http"
+type = "https"
+localIP = "127.0.0.1"
+localPort = 8443
+customDomains = ["kirilngusi.site"]
+
+[proxies.plugin]
+type = "https2http"
+localAddr = "127.0.0.1:80"
+crtPath = "/home/kiril/go/src/gitlab.shopbase.dev/go-reverse-proxy/conf/server.crt"
+keyPath = "/home/kiril/go/src/gitlab.shopbase.dev/go-reverse-proxy/conf/server.key"
+hostHeaderRewrite = "127.0.0.1"
+requestHeaders.set.x-from-where = "frp"
