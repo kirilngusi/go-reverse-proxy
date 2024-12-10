@@ -4,7 +4,7 @@ LDFLAGS := -s -w
 
 all: env fmt build
 
-build: frps
+build: frps frpc
 
 env:
 	@go version
@@ -12,7 +12,9 @@ env:
 # compile assets into binary file
 file:
 	rm -rf ./assets/frps/static/*
+	rm -rf ./assets/frpc/static/*
 	cp -rf ./web/frps/dist/* ./assets/frps/static
+	cp -rf ./web/frpc/dist/* ./assets/frpc/static
 
 fmt:
 	go fmt ./...
@@ -29,5 +31,9 @@ vet:
 frps:
 	env CGO_ENABLED=0 go build -trimpath -ldflags "$(LDFLAGS)" -tags frps -o bin/frps ./cmd/frps
 
+frpc:
+	env CGO_ENABLED=0 go build -trimpath -ldflags "$(LDFLAGS)" -tags frpc -o bin/frpc ./cmd/frpc
+
 clean:
+	rm -f ./bin/frpc
 	rm -f ./bin/frps
